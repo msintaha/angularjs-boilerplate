@@ -1,0 +1,54 @@
+<div class="container main">
+
+     <div class="row">
+
+       <section class="col-sm-8">
+
+         <div class="row">
+            <div class="col-md-8">
+             <article class="post" ng-repeat="post in articles.posts">
+
+               <a href="#" class="post-thumbnail-wrapper">
+                 <media media-id="post.featured_media"></media>
+               </a>
+
+               <div class="content">
+
+                 <div class="heading clearfix">
+
+                   <a href="#" class="author pull-left">
+                     <user user-id="post.author"></user>
+                   </a>
+
+                   <h2 class="title"><a href="#">{{post.title.rendered}}</a></h2>
+
+                 </div>
+
+                 <a href="#" class="excerpt" ng-bind-html="trust(post.content.rendered)"></a>
+                 <a class="read-more" href="#">Read More...</a>
+                 <br>
+                 <ul ng-repeat="tag in post.tags" class="tags">
+                   <tags tag-id="tag"></tags>
+                 </ul>
+
+                 <ul class="action">
+                   <li class="mug"><a href="#"></a></li>
+                   <li class="heart"><a href="#"></a></li>
+                 </ul>
+
+               </div> <!-- /.content -->
+             </article>
+
+           </div>
+         </div>
+
+         <div class="text-center">
+           <a class="load-more" href="#">Load More</a>
+         </div>
+
+       </section>
+
+       <div ng-include src="'app/partials/sidebar.html'"></div>
+
+     </div> <!-- /.row -->
+   </div> <!-- /.container -->

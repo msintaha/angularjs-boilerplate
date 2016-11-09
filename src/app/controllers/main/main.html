@@ -1,0 +1,25 @@
+<div class="body-top-section clearfix" ng-controller="MainController">
+  <div class="content">
+
+    <img class="mad-koffee" src="assets/images/home-mad-koffe/1.png">
+     <!-- img preloading :P -->
+    <img width="0" height="0" src="assets/images/home-mad-koffe/2.png">
+    <img width="0" height="0" src="assets/images/home-mad-koffe/3.png">
+    <!--  -->
+
+
+    <h1 class="madness-title" ng-click="main.addPost()">Madness is</h1>
+    <div class="madness-wrapper">
+      <h2 class="madness">Unexpecting the expected</h2>
+    </div>
+
+    <ul class="top-banner-btn-set">
+      <li><a href="#">sign up</a></li>
+      <li><a href="#">log in</a></li>
+    </ul>
+    <a href="#" class="btn-explore hidden-xs"></a>
+  </div>
+</div>
+
+<div ng-include src="'app/partials/nav.html'"></div>
+<posts post-num="6"></posts>
