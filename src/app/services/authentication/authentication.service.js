@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('madkoffeeFrontend')
+    .module('appFrontend')
     .service('authService', authService);
 
   /** @ngInject */

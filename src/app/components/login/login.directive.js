@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('madkoffeeFrontend')
+    .module('appFrontend')
     .directive('login', loginDirective);
 
   /** @ngInject */

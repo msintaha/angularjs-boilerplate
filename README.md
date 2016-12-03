@@ -1,8 +1,5 @@
-![Build Badge](https://magnum-ci.com/status/81cf94c0f51122f914e54299919a93df.png)  
-
-## Mad Koffee Frontend  
-This is the repo for Mad Koffee's front-end application built with AngularJS. The site will enable users to write posts and view them without having to visit the dashboard.
-
+## AngularJS Frontend  
+A front-end application built with AngularJS. The site will enable users to build an app based on API calls.
 ### Requirements  
 1. NodeJS >= 4
 
@@ -13,3 +10,5 @@ This is the repo for Mad Koffee's front-end application built with AngularJS. Th
 4. Run `npm install`
 5. Run `bower install`
 6. Start server using `gulp serve`
+
+Style-guide: https://github.com/johnpapa/angular-styleguide

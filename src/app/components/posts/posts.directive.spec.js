@@ -4,7 +4,7 @@
   describe('Post directive', function() {
     var scope, compile, $httpBackend, directiveElem;
 
-    beforeEach(module('madkoffeeFrontend'));
+    beforeEach(module('appFrontend'));
     beforeEach(inject(function(_$rootScope_, _$compile_, _$httpBackend_) {
       $httpBackend = _$httpBackend_;
       compile = _$compile_;

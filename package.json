@@ -1,5 +1,5 @@
 {
-  "name": "madkoffeeFrontend",
+  "name": "appFrontend",
   "version": "0.0.0",
   "scripts": {
     "test": "gulp test"

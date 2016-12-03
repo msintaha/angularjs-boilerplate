@@ -2,7 +2,7 @@
   'use strict';
 
   describe('Uppercase Filter', function() {
-    beforeEach(module('madkoffeeFrontend'));
+    beforeEach(module('appFrontend'));
 
     it('should convert input string to uppercase', inject(function(uppercaseFilter) {
       var str = 'hello';

@@ -4,7 +4,7 @@
   describe('Main controller', function() {
     var vm;
 
-    beforeEach(module('madkoffeeFrontend'));
+    beforeEach(module('appFrontend'));
     beforeEach(inject(function(_$controller_) {
       vm = _$controller_('MainController');
     }));

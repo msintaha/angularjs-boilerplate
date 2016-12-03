@@ -4,7 +4,7 @@
   describe('User Service', function() {
     var userService, $httpBackend, $window, headers, authService, fetchedVal, credentials;
 
-    beforeEach(module('madkoffeeFrontend'));
+    beforeEach(module('appFrontend'));
     beforeEach(inject(function(_userService_, _$httpBackend_, _$window_, _authService_) {
       userService = _userService_;
       $httpBackend = _$httpBackend_;

@@ -4,7 +4,7 @@
   describe('Post Service', function() {
     var postService, $httpBackend, $window, headers, authService, fetchedVal, credentials;
 
-    beforeEach(module('madkoffeeFrontend'));
+    beforeEach(module('appFrontend'));
     beforeEach(inject(function(_postService_, _$httpBackend_, _$window_, _authService_) {
       postService = _postService_;
       $httpBackend = _$httpBackend_;

@@ -2,9 +2,9 @@
   'use strict';
 
   angular
-    .module('madkoffeeFrontend')
+    .module('appFrontend')
     .constant('config', {
-      apiUrl: 'http://madkoffee.com/wp-json/wp/v2/'
+      apiUrl: ''
     });
 
 })();
