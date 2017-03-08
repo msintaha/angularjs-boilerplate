@@ -9,13 +9,12 @@
   function userDirective() {
     var directive = {
       restrict: 'E',
-      scope: {
+      bindToController: {
         userId: '='
       },
       templateUrl: 'app/components/user/user.html',
       controller: UserController,
-      controllerAs: 'user',
-      bindToController: true
+      controllerAs: 'user'
     };
 
     return directive;

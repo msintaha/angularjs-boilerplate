@@ -9,13 +9,12 @@
   function postsDirective() {
     var directive = {
       restrict: 'E',
-      scope: {
+      bindToController: {
         postNum: '='
       },
       templateUrl: 'app/components/posts/posts.html',
       controller: PostController,
-      controllerAs: 'articles',
-      bindToController: true
+      controllerAs: 'articles'
     };
 
     return directive;
